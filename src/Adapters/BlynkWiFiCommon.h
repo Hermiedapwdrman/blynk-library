@@ -28,7 +28,7 @@ public:
         : Base(transp)
     {}
 
-    void connectWiFi(const char* ssid, const char* pass)
+    void zconnectWiFi(const char* ssid, const char* pass)
     {
         int status = WL_IDLE_STATUS;
         // check for the presence of the shield:
